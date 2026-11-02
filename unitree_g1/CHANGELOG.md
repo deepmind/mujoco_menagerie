@@ -6,6 +6,10 @@ All notable changes to this model will be documented in this file.
 
 - Migrate legacy joint `actuatorfrcrange` to actuator `forcerange`.
 
+## [2026-11-01]
+
+- Moved lights from robot XML to scene XML.
+
 ## [2026-10-19]
 
 - Add `mjlab` variant [g1_mjlab.xml](g1_mjlab.xml) (derived from [g1_mjx.xml](g1_mjx.xml) with capsule foot colliders, active self-collisions, and actuators/solver options removed for programmatic specification).
